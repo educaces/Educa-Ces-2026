@@ -1,0 +1,32 @@
+*{
+    margin: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+body{
+    width: 90vw;
+    height: 326vh;
+    background-color: black;
+    background-image: url(Artes/6bebidas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+@media screen and (max-width: 1020px){
+    *{
+        margin: 0.1px;;
+    }
+    body{
+        padding-top: 200px;
+        background-color: white;
+        height: 300px;
+        background-image: url(Artes/6bebidas.jpg);
+        background-repeat: no-repeat;
+        margin: 50px;
+        background-size: cover;
+    ;
+    }
+}
